@@ -1,0 +1,13 @@
+TY  - COMP
+TI  - SMAP–dPL–HBV: A SMAP-Adapted Differentiable HBV Model with Linear Bias Correction and Static Attributes
+AU  - Li, Peijun
+AU  - Shen, Chaopeng
+AU  - Liu, Jiangtao
+AU  - Rahmani, Farshid
+AU  - Pan, Ming
+AU  - Lawson, Kathryn
+VL  - 1.0
+DO  - 10.5281/zenodo.21652642
+UR  - https://doi.org/10.5281/zenodo.21652642
+N1  - Version 1.0 [Software]. Zenodo. Core SMAP–dPL–HBV implementation and processed geographic static attributes.
+ER  -

@@ -1,0 +1,29 @@
+# Paths are placeholders. The dynamic NPZ, PET, checkpoints, and scaler are not
+# distributed in this architecture-reference archive.
+train:
+  dataset_npz: /path/to/SMAP/jn04_dataset_select.npz
+  pet_csv: /path/to/SMAP/jn04_PEVAP.csv
+  output_dir: /path/to/output
+  gpu: 0
+  seed: 111111
+
+test:
+  dataset_npz: /path/to/SMAP/jn04_dataset_select.npz
+  pet_csv: /path/to/SMAP/jn04_PEVAP.csv
+  model_dir: /path/to/model_directory
+  output_dir: /path/to/output
+  epoch: 100
+  gpu: 0
+  seed: 111111
+
+model:
+  forcing_lstm_order: [APCP, DLWRF, DSWRF, PRES, SPFH, TMP]
+  forcing_hbv_order: [APCP, TMP, PET]
+  static_attribute_order: [Albedo, Capa, landcover, NDVI, T_BULK_DEN, T_CLAY, T_SAND, T_SILT]
+  target: SMAP_AM
+  hidden_size: 256
+  number_of_hbv_components: 16
+  parameter_count_per_component: 16
+  dynamic_parameter_indices_one_based: [1, 3, 13]
+  rho_days: 365
+  warmup_days: 365

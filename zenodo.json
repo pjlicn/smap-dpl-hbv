@@ -1,0 +1,43 @@
+{
+  "title": "SMAP–dPL–HBV: A SMAP-Adapted Differentiable HBV Model with Linear Bias Correction and Static Attributes",
+  "description": "This package accompanies the paper “Systematic discrepancies should be addressed before effective parameter learning: Insights from soil moisture simulations using differentiable process-based models”. It provides the SMAP-adapted differentiable HBV model, its LSTM parameter generator and surrogate model components, portable training and testing entry points, and processed geographic static attributes for 891 study locations. Documentation describes model settings, input schemas, and local use. Training uses user-supplied dynamic inputs; testing uses a trained checkpoint and its matching normalization file.",
+  "upload_type": "software",
+  "version": "1.0",
+  "access_right": "open",
+  "license": "bsd-3-clause",
+  "creators": [
+    {
+      "name": "Li, Peijun",
+      "affiliation": "Civil and Environmental Engineering, The Pennsylvania State University, University Park, PA, USA"
+    },
+    {
+      "name": "Shen, Chaopeng",
+      "affiliation": "Civil and Environmental Engineering, The Pennsylvania State University, University Park, PA, USA"
+    },
+    {
+      "name": "Liu, Jiangtao",
+      "affiliation": "Civil and Environmental Engineering, The Pennsylvania State University, University Park, PA, USA"
+    },
+    {
+      "name": "Rahmani, Farshid",
+      "affiliation": "Civil and Environmental Engineering, The Pennsylvania State University, University Park, PA, USA"
+    },
+    {
+      "name": "Pan, Ming",
+      "affiliation": "Center for Western Weather and Water Extremes, Scripps Institution of Oceanography, University of California San Diego, La Jolla, CA, USA"
+    },
+    {
+      "name": "Lawson, Kathryn",
+      "affiliation": "Civil and Environmental Engineering, The Pennsylvania State University, University Park, PA, USA"
+    }
+  ],
+  "keywords": [
+    "differentiable process-based model",
+    "HBV",
+    "SMAP",
+    "soil moisture",
+    "LSTM",
+    "surrogate model"
+  ],
+  "notes": "Version 1.0 software archive, DOI: 10.5281/zenodo.21652642. Input requirements are described in the README and documentation. Package checks and their scope are recorded in documentation/VERIFICATION_REPORT.md."
+}

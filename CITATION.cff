@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use this archive, please cite the archive and the associated manuscript."
+type: software
+title: "SMAP–dPL–HBV: A SMAP-Adapted Differentiable HBV Model with Linear Bias Correction and Static Attributes"
+version: "1.0"
+doi: "10.5281/zenodo.21652642"
+url: "https://doi.org/10.5281/zenodo.21652642"
+authors:
+  - family-names: Li
+    given-names: Peijun
+    affiliation: "Civil and Environmental Engineering, The Pennsylvania State University, University Park, PA, USA"
+  - family-names: Shen
+    given-names: Chaopeng
+    affiliation: "Civil and Environmental Engineering, The Pennsylvania State University, University Park, PA, USA"
+  - family-names: Liu
+    given-names: Jiangtao
+    affiliation: "Civil and Environmental Engineering, The Pennsylvania State University, University Park, PA, USA"
+  - family-names: Rahmani
+    given-names: Farshid
+    affiliation: "Civil and Environmental Engineering, The Pennsylvania State University, University Park, PA, USA"
+  - family-names: Pan
+    given-names: Ming
+    affiliation: "Center for Western Weather and Water Extremes, Scripps Institution of Oceanography, University of California San Diego, La Jolla, CA, USA"
+  - family-names: Lawson
+    given-names: Kathryn
+    affiliation: "Civil and Environmental Engineering, The Pennsylvania State University, University Park, PA, USA"
+license: BSD-3-Clause
+keywords:
+  - differentiable modeling
+  - HBV
+  - soil moisture
+  - SMAP
+  - surrogate model
